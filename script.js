@@ -96,7 +96,7 @@ async function fetchText() {
             words: { '10': 'short', '25': 'medium', '50': 'long', '100': 'long' },
             quote: { 'short': 'short', 'medium': 'medium', 'long': 'long' }
         };
-        const response = await fetch('http://localhost:5000/generate-text', {
+        const response = await fetch('https://type-master-ja33.onrender.com/generate-text', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

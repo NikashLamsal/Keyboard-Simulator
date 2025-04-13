@@ -1,11 +1,13 @@
 from flask import Flask, request, jsonify
 import requests
 from flask_cors import CORS
+import os
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for frontend access
+CORS(app)
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434/api/generate")
+
 
 def clean_text(text):
     """Clean DeepSeek output for typing tests."""
@@ -20,7 +22,7 @@ def generate_text():
         include_numbers = data.get("numbers", False)
         length = data.get("length", "short")
 
-        # Craft prompt based on mode and settings
+        # prompt based on mode and settings
         if mode == "quote":
             prompt = f"Generate a {length} quote suitable for a typing test."
         else:
