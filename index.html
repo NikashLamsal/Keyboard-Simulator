@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>TypePulse</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="app-container">
+        <div class="settings-container">
+            <div class="mode-selector">
+                <span>Mode:</span>
+                <button class="mode-btn" data-mode="time">Time</button>
+                <button class="mode-btn" data-mode="words">Words</button>
+                <button class="mode-btn" data-mode="quote">Quote</button>
+            </div>
+            <div class="options-selector" id="options-selector"></div>
+            <div class="difficulty-selector">
+                <span>Difficulty:</span>
+                <button class="diff-btn" data-diff="normal">Normal</button>
+                <button class="diff-btn" data-diff="expert">Expert</button>
+                <button class="diff-btn" data-diff="master">Master</button>
+            </div>
+            <div class="theme-selector">
+                <span>Theme:</span>
+                <button class="theme-btn" data-theme="vscode-dark">VSCode Dark</button>
+                <button class="theme-btn" data-theme="terminal-green">Terminal Green</button>
+            </div>
+            <div class="settings-toggle">
+                <button id="settings-btn">⚙️</button>
+            </div>
+        </div>
+        <div class="stats-container">
+            <div class="stats">
+                <span>WPM: <span id="wpm">0</span></span>
+                <span>Raw WPM: <span id="raw-wpm">0</span></span>
+                <span>Accuracy: <span id="accuracy">0%</span></span>
+                <span>Consistency: <span id="consistency">0%</span></span>
+                <span>Errors: <span id="errors">0</span></span>
+            </div>
+        </div>
+        <div class="text-container">
+            <div id="text-display"></div>
+            <div id="caret"></div>
+        </div>
+        <div class="history-container" id="history">
+            <h3>History</h3>
+            <div id="history-list"></div>
+        </div>
+        <div class="keyboard-container" id="keyboard"></div>
+    </div>
+    <div class="settings-panel" id="settings-panel">
+        <h3>Settings</h3>
+        <label><input type="checkbox" id="punctuation"> Punctuation</label>
+        <label><input type="checkbox" id="numbers"> Numbers</label>
+        <label><input type="checkbox" id="case-sensitive"> Case Sensitive</label>
+        <button id="close-settings">Close</button>
+    </div>
+    <div class="credit">
+        <a href="https://x.com/DevangSaklani">Built by Devang Saklani</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
