@@ -1,6 +1,6 @@
-# TypePulse            [![🔍 Preview!](https://img.shields.io/badge/🔍-Preview!-0a84ff?style=for-the-badge&logo=eye&logoColor=white)](https://nikashlamsal.github.io/Type-Master/)
+# Type Master          [![🔍 Preview!](https://img.shields.io/badge/🔍-Preview!-0a84ff?style=for-the-badge&logo=eye&logoColor=white)](https://nikashlamsal.github.io/Type-Master/)
 
-**TypePulse** is a futuristic typing test simulator that combines real-time typing analytics with a glowing RGB-style virtual keyboard. Built with HTML, CSS, and JavaScript, and powered by DeepSeek AI for smart paragraph generation — this tool is designed to help you type faster, better, and with style. 💻✨
+**Type Master** is a futuristic typing test simulator that combines real-time typing analytics with a glowing RGB-style virtual keyboard. Built with HTML, CSS, and JavaScript, and powered by DeepSeek AI for smart paragraph generation — this tool is designed to help you type faster, better, and with style. 💻✨
 
 ---
 
