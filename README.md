@@ -28,8 +28,3 @@
   `HTML`, `CSS`, `JavaScript`, and `Python (for backend AI)`.
 
 ---
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/typepulse.git
-   cd typepulse
