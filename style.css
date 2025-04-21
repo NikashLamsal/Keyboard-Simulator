@@ -5,7 +5,7 @@
 }
 
 html, body {
-    height: 90%;
+    height: 100%;
     width: 100%;
     overflow: hidden;
     font-family: 'Segoe UI', sans-serif;
@@ -60,8 +60,8 @@ body {
 
 @keyframes glow-border {
     0%   { box-shadow: 0 0 10px #00ffff; }
-    50%  { box-shadow: 0 0 20px #00ffff; }
-    100% { box-shadow: 0 0 10px #00ffff; }
+    50%  { box-shadow: 0 0 20px #d400ff; }
+    100% { box-shadow: 0 0 10px #a2ff00; }
 }
 
 .keyboard-container {
