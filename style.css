@@ -154,11 +154,31 @@ body {
     z-index: 10;
 }
 
+.footer a {
+    color: #00ffff;
+    font-weight: 600;
+    text-decoration: none;
+    text-shadow: 0 0 5px #00ffff;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #8cfafa;
+    text-shadow: 0 0 8px #8cfafa;
+}
+
+
+.footer a:active {
+    color: #00ff66;
+    text-shadow: 0 0 8px #00ff66;
+}
+
+
 .footer p {
     margin: 0;
     font-weight: 500;
-    color: #00ffff;
-    text-shadow: 0 0 5px #00ffff;
+    color: #59eeee;
+    text-shadow: 0 0 5px #8cebeb;
 }
 
 .footer .social-media {
